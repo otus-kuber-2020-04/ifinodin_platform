@@ -1,7 +1,7 @@
 # ifinodin_platform
 ifinodin Platform repository
 
-## HW2: K8S INTRO
+## HW1: K8S INTRO
 1. Разберитесь почему все pod в namespace kube-system
 восстановились после удаления.
 - kube-apiserver восстанавливает kubelet, используя манифесты кластера
@@ -17,4 +17,4 @@ Push to repo:
 3. Создан манифест web-pod.yaml, использующийся для запуска пода.
 - После проверки вебсервер отдает index.html с logo 'express 42'
 
-4. Склонирован и запущен frontend hs, выполнен фикс - добавлены env. 
+4. Склонирован и запущен frontend hs, выполнен фикс - добавлены env.
